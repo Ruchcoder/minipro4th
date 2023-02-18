@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'Flutter Demo',
       theme: ThemeData(
-        scaffoldBackgroundColor: Color(0xFFFFEBEE),
+        scaffoldBackgroundColor: Color(0xFFEBF4FF),
         primarySwatch: Colors.purple,
       ),
       home: HomePage(),
@@ -29,18 +29,18 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       floatingActionButton:
       FloatingActionButton(onPressed: null,
-        backgroundColor: Color(0xFFFF5252),
+        backgroundColor: Color(0xFF527AFF),
         child: Icon(Icons.add),
-        tooltip: "Add more friends",
+        tooltip: "Add friends",
       ),
       appBar: AppBar(
         toolbarHeight: 100,
         elevation: 10,
 
-        backgroundColor: Color(0xFFD32F2F),
+        backgroundColor: Color(0xFF2F4AD3),
         leading: Icon (Icons.child_friendly_outlined),
         leadingWidth: 75,
-        title: Text("Mes Amis",
+        title: Text("Bless",
           style: TextStyle(
               fontSize:  31,
               fontWeight: FontWeight.w600
@@ -68,12 +68,12 @@ class HomePage extends StatelessWidget {
                       style: TextStyle(
                         fontSize: 32,
                         fontWeight: FontWeight.w500,
-                        color: Colors.redAccent,
+                        color: Colors.blueAccent,
                       ),
                     ),
                   ),
                   Container(
-                    color: Colors.redAccent,
+                    color: Colors.blueAccent,
                     child: Padding(
                       padding: const EdgeInsets.all(7.0),
                       child: Text("17",
@@ -91,7 +91,7 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/vicky.jpg"),
+                  Image(image: AssetImage("images/profile 7.jpg"),
                     height: 50 ,
                     width:  50 ,
                   ),
@@ -121,17 +121,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/mom.png"),
+                  Image(image: AssetImage("images/esther.jpg"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Mommy",
+                  Text("Esther",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("mom@gmail.com",
+                  Text("estil@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -150,7 +150,7 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/hubby.jpg"),
+                  Image(image: AssetImage("images/p1.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
@@ -160,7 +160,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
 
-                  Text("jasp@gmail.com",
+                  Text("papa@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -179,17 +179,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/vic.jpg"),
+                  Image(image: AssetImage("images/p2.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Vick",
+                  Text("Ricky",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("vick34@gmail.com",
+                  Text("ricky@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -208,17 +208,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/gracious.jpg"),
+                  Image(image: AssetImage("images/p3.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Gracious",
+                  Text("Precious",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("gracious@gmail.com",
+                  Text("precious@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -237,18 +237,18 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/evelyn.jpg"),
+                  Image(image: AssetImage("images/p3.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
 
-                  Text("Evelyn",
+                  Text("Riches",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("evelyn@gmail.com",
+                  Text("riches@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -267,7 +267,7 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/ese.jpg"),
+                  Image(image: AssetImage("images/p5.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
@@ -296,18 +296,18 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/carla.jpg"),
+                  Image(image: AssetImage("images/p6.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
 
-                  Text("Carla",
+                  Text("Dag",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("lily@gmail.com",
+                  Text("dag@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -325,46 +325,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/lily.jpg"),
+                  Image(image: AssetImage("images/p7.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Lily",
+                  Text("presdd",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("lily77@gmail.com",
-                    style: TextStyle(
-                        fontWeight: FontWeight.w600
-                    ),
-                  ),
-                ],
-
-              ),
-              Divider(
-                endIndent: 10,
-                indent: 5,
-                thickness: 2,
-                color: Color(0xFFEF9A9A),
-              ),
-              SizedBox(height: 15),
-
-              Row(
-                mainAxisAlignment: MainAxisAlignment.spaceAround,
-                children: [
-                  Image(image: AssetImage("images/berry.jpg"),
-                    height: 50 ,
-                    width:  50 ,
-                  ),
-                  Text("Berry",
-                    style: TextStyle(
-                        fontWeight: FontWeight.w600
-                    ),
-                  ),
-
-                  Text("berry@gmail.com",
+                  Text("presd@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -383,17 +354,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/christy.jpg"),
+                  Image(image: AssetImage("images/profile 7.jpg"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Christy",
+                  Text("Prof",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("christy@gmail.com",
+                  Text("ry@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -412,17 +383,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/carla.jpg"),
+                  Image(image: AssetImage("images/simi.jpg"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Carla",
+                  Text("rosty",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("carll@gmail.com",
+                  Text("chr@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -441,17 +412,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/berry.jpg"),
+                  Image(image: AssetImage("images/p3.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Jane Doe",
+                  Text("RECKY",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("beryeast@gmail.com",
+                  Text("cl@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -463,14 +434,43 @@ class HomePage extends StatelessWidget {
                 endIndent: 10,
                 indent: 5,
                 thickness: 2,
-                color: Color(0xFFEF9A9A),
+                color: Color(0xFF9AA5EF),
               ),
               SizedBox(height: 15),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/ese.jpg"),
+                  Image(image: AssetImage("images/bless.jpg"),
+                    height: 50 ,
+                    width:  50 ,
+                  ),
+                  Text("Jan",
+                    style: TextStyle(
+                        fontWeight: FontWeight.w600
+                    ),
+                  ),
+
+                  Text("east@gmail.com",
+                    style: TextStyle(
+                        fontWeight: FontWeight.w600
+                    ),
+                  ),
+                ],
+
+              ),
+              Divider(
+                endIndent: 10,
+                indent: 5,
+                thickness: 2,
+                color: Color(0xFF90A7F5),
+              ),
+              SizedBox(height: 15),
+
+              Row(
+                mainAxisAlignment: MainAxisAlignment.spaceAround,
+                children: [
+                  Image(image: AssetImage("images/p3.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
@@ -480,7 +480,7 @@ class HomePage extends StatelessWidget {
                     ),
                   ),
 
-                  Text("holla@gmail.com",
+                  Text("frtya@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -492,24 +492,24 @@ class HomePage extends StatelessWidget {
                 endIndent: 10,
                 indent: 5,
                 thickness: 2,
-                color: Color(0xFFEF9A9A),
+                color: Color(0xFF9AA5EF),
               ),
               SizedBox(height: 15),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/nista.jpg"),
+                  Image(image: AssetImage("images/simi.jpg"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Fash",
+                  Text("simily",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("gypsy@gmail.com",
+                  Text("simply@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -521,24 +521,24 @@ class HomePage extends StatelessWidget {
                 endIndent: 10,
                 indent: 5,
                 thickness: 2,
-                color: Color(0xFFEF9A9A),
+                color: Color(0xFF3336FF),
               ),
               SizedBox(height: 15),
 
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/vicky.jpg"),
+                  Image(image: AssetImage("images/p6.png"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("Vicky yo",
+                  Text("denike",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("vacks@gmail.com",
+                  Text("denike@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -550,7 +550,7 @@ class HomePage extends StatelessWidget {
                 endIndent: 10,
                 indent: 5,
                 thickness: 2,
-                color: Color(0xFFEF9A9A),
+                color: Color(0xFF85A1FF),
               ),
               SizedBox(height: 15),
 
@@ -558,17 +558,17 @@ class HomePage extends StatelessWidget {
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
-                  Image(image: AssetImage("images/lily.jpg"),
+                  Image(image: AssetImage("images/esther.jpg"),
                     height: 50 ,
                     width:  50 ,
                   ),
-                  Text("LilyBear",
+                  Text("Bodyguard",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
                   ),
 
-                  Text("lilybeer@gmail.com",
+                  Text("body@gmail.com",
                     style: TextStyle(
                         fontWeight: FontWeight.w600
                     ),
@@ -580,7 +580,7 @@ class HomePage extends StatelessWidget {
                 endIndent: 10,
                 indent: 5,
                 thickness: 2,
-                color: Color(0xFFEF9A9A),
+                color: Color(0xFF8EA4FF),
               ),
               SizedBox(height: 15),
 
